@@ -95,62 +95,58 @@ async def whoizme(e):
         await asyncio.sleep(0.3)
         await e.edit("EVERyBOdy iZ GangSTur UNtIL I ArRivE 🔥")
 
-@register(outgoing=True, pattern="^.nikal$")
-async def whoizme(e):
-    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("Nikal")
-        await asyncio.sleep(0.3)
-        await e.edit("lavde")
-        await asyncio.sleep(0.2)
-        await e.edit("pehli")
-        await asyncio.sleep(0.5)
-        await e.edit("fursat")
-        await asyncio.sleep(0.2)
-        await e.edit("me")
-        await asyncio.sleep(0.3)
-        await e.edit("nikal")
-        await asyncio.sleep(0.3)
-        await e.edit("🤬")
-        await asyncio.sleep(0.3)
-        await e.edit("Nikal lavde pehli fursat me nikal 🤬")
 
-@register(outgoing=True, pattern="^.kill$")
+
+
+
+
+
+
+
+
+
+
+@register(outgoing=True, pattern="^.kill")
 async def whoizme(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("Target")
-        await asyncio.sleep(0.3)
-        await e.edit("locked")
-        await asyncio.sleep(0.2)
-        await e.edit("shot")
+        await e.edit("Scope")
+        await asyncio.sleep(0.9)
+        await e.edit("Arahin Pala")
         await asyncio.sleep(0.5)
-        await e.edit("fired")
-        await asyncio.sleep(0.2)
-        await e.edit("killed")
+        await e.edit("Tembak")
         await asyncio.sleep(0.3)
-        await e.edit("by")
+        await e.edit("Jeder!")
+        await asyncio.sleep(0.3)
+        await e.edit("Meninggal")
+        await asyncio.sleep(0.3)
+        await e.edit("Headshot")
+        await asyncio.sleep(0.3)
+        await e.edit("pake")
         await asyncio.sleep(0.3)
         await e.edit("AWM")
         await asyncio.sleep(0.3)
-        await e.edit("User Killed successfully from headshot with AWM")
+        await e.edit("User Targeted sudah mati ku-Headshot pake AWM")
 
-@register(outgoing=True, pattern="^.upro$")
+
+@register(outgoing=True, pattern="^.gitdev")
 async def whoizme(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("EVERyBOdy")
+        await e.edit("InI")
         await asyncio.sleep(0.3)
-        await e.edit("iZ")
-        await asyncio.sleep(0.2)
-        await e.edit("PrO")
+        await e.edit("AdalaH")
         await asyncio.sleep(0.5)
-        await e.edit("UNtIL ")
+        await e.edit("GITHUB")
+        await asyncio.sleep(0.5)
+        await e.edit("Dari ")
+        await asyncio.sleep(0.3)
+        await e.edit("Developer")
+        await asyncio.sleep(0.5)
+        await e.edit("Bod")
         await asyncio.sleep(0.2)
-        await e.edit("U")
-        await asyncio.sleep(0.3)
-        await e.edit("ArRivE")
-        await asyncio.sleep(0.3)
-        await e.edit("🔥")
-        await asyncio.sleep(0.3)
-        await e.edit("EVERyBOdy iZ PrO UNtIL U ArRivE 🔥")
+        await e.edit("Ini 🔥")
+        await asyncio.sleep(0.5)
+        await e.edit("[Dev Bot Ini](https://github.com/luqmanvps)") 
+
 
 
 CMD_HELP.update({
